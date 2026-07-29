@@ -1,6 +1,6 @@
 Name:       xcp-efivar-utils
 Version:    1.0.0
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    XCP-ng UEFI variable utility library
 License:    BSD-2-Clause AND GPL-2.0-only
 URL:        https://github.com/xcp-ng/xcp-efivar-utils
@@ -28,5 +28,8 @@ python3 -m pip install "%{SOURCE0}" --root %{buildroot}
 %{python3_sitelib}/xcp_efivar_utils*
 
 %changelog
+* Wed Jul 29 2026 Tu Dinh <ngoc-tu.dinh@vates.tech> - 1.0.0-2
+- Rebuild for XCP-ng 9
+
 * Fri Jul 10 2026 Tu Dinh <ngoc-tu.dinh@vates.tech> - 1.0.0-1
 - Initial version
