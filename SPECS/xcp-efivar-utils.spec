@@ -1,6 +1,6 @@
 Name:       xcp-efivar-utils
 Version:    1.0.0
-Release:    2%{?dist}
+Release:    2~xeu.1%{?dist}
 Summary:    XCP-ng UEFI variable utility library
 License:    BSD-2-Clause AND GPL-2.0-only
 URL:        https://github.com/xcp-ng/xcp-efivar-utils
