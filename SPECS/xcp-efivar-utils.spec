@@ -11,9 +11,6 @@ Source0:    xcp_efivar_utils-1.0.0-py3-none-any.whl
 BuildRequires:  python3-devel python3-pip
 BuildArch:      noarch
 
-# this package replaces the scripts built into the varstored package
-Conflicts:      varstored <= 1.3.2-2.1
-
 Requires:       openssl
 
 %description
